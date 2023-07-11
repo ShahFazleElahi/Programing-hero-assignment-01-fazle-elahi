@@ -3,6 +3,18 @@
     font-family: 'Lato', sans-serif;
     font-family: 'Montserrat', sans-serif;
 }
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #FFF;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,1);
+    
+}
 .main-c{
     width: 1920px;
     height: 4867px;
@@ -80,7 +92,7 @@ second section
     width: 40px;
 }
 
-}
+
 .heading-text-2{
     color: #272727;
     text-align: center;
@@ -89,7 +101,7 @@ second section
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    padding-bottom: #;
+    
 }
 .description-2{
     display: flex;
@@ -113,7 +125,6 @@ second section
 
     
     width: 1920px;
-    height: #;
     border: 0px white;
     display: flex;
     align-items: center;
@@ -127,7 +138,7 @@ second section
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     padding-right: 48px;
-    o
+    
 }
 .box-2{
     width: 464px;
@@ -290,6 +301,7 @@ second section
 .section-5{
     position: relative;
     
+    
 
 }
 .banner-text-5{
@@ -411,7 +423,6 @@ second section
     margin-left: 0px;
     margin-right: 0px;
     padding-bottom: 32px;
-    m
     width: 625px;
     flex-direction: column;
     flex-shrink: 0;
