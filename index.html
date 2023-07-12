@@ -7,26 +7,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@900&display=swap" rel="stylesheet">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/styles.css">
 
 </head>
 <body>
     <header>
-        <a href="#"><span>Flower</span>Shop</a>
-        <nav>
-            <a href="Home">Home</a>
-            <a href="About">About</a>
-            <a href="products">Products</a>
-            <a href="Review">Review</a>
-            <a href="Contact">Contact</a>
-        </nav>
+
+        <div class="header">
+            <a href="#default" class="logo"><span style="color: #e55473;">Flower</span>Shop</a>
+            <div class="header-right">
+              <a class="active" href="#home">Home</a>
+              <a href="#contact">Contact</a>
+              <a href="#about">About</a>
+            </div>
+          </div>
+
+
+
+
     </header>
     <main class="main-c">
-
-        
-
-
+    
         <section class="first-section">
             <div class="banner-container">
                 <div class="banner-text">
@@ -46,29 +48,33 @@
             </div>
         </section>
 
+        <section class="">
+
+
+        </section>
+
         <section class="section-2">
                  <h1 style="text-align: center;" class="heading-text-2">Our Featured Flowers</h1>
             <p style="text-align: center;" class="dascription-2">It is a long established fact that a reader will be distracted by the readable <br> 
                content of a page when looking at its layout.</p>
-                 <div class="banner-photo-2">
+                <div class="banner-photo-2">
                     
 
                   <div class="box">
                   <Div class="box-1">
                     <img class="banner-img-1" src="images/pngwing 6.png" alt="">
-                    <a href="#">Pink Flower</a>
-                </Div>
+                  </Div>
 
-                  <Div class="box-2"><img class="banner-img-2" src="images/pngwing 5.png" alt=""></Div>
+                  <div class="box-2">
+                    <img class="banner-img-2" src="images/pngwing 5.png" alt="">
+                  </Div>
 
-                  <Div class="box-3"> <img class="banner-img-3" src="images/pngwing 7.png" alt=""></Div>
-                  </div>
+                  <Div  class="box-3">
+                    <img class="banner-img-3" src="images/pngwing 7.png" alt="">
+                  </Div>
+                  
+                </div>
 
-            </div>
-            <div class="pick">
-                <a href="#">Pink Flower Tree</a>
-                <a href="#">Pink Flower Tree</a>
-                <a href="#">Pink Flower Tree</a>
             </div>
         </section>
 
@@ -86,25 +92,94 @@
         </section>
 
         <section class="section-h">
-            <h1 class="banner-text-4">Instagram</h1>
-            <p class="dascription-4">It is a long established fact that a reader will be distracted by the readable <br> 
+            <h1 style="align-items: center;" class="banner-text-4">Instagram</h1>
+            <p style="text-align: center;" class="dascription-4">It is a long established fact that a reader will be distracted by the readable <br> 
                content of a page when looking at its layout.</p>
+            
             <div class="banner-photo-3">
-                <img src="images/Flower 01.png" alt="">
-                <img src="images/Rectangle 4.png" alt="">
-                <img src="images/Rectangle 5.png" alt="">
-                <img src="images/Rectangle 6.png" alt="">
+                <img style="margin: 11px;" class="im1" src="images/Flower 01.png"   alt="">
+                <img style="margin: 11px;" class="im2" src="images/Rectangle 4.png" alt="">
+                <img style="margin: 11px;" class="im3" src="images/Rectangle 5.png" alt=""> 
+                <img style="margin: 11px;" class="im4" src="images/Rectangle 6.png" alt="">
             </div>
         </section>
         
+        <section class="buy-c">
+            <div class="container">
+                <h2 class="section-heading">Flowers for Sale</h2>
+                <div class="flower-card">
+                  <img src="images/download (1).jpg" alt="Flower 1">
+                  <div class="flower-info">
+                    <h3>Beautiful Rose</h3>
+                    <p>Red rose with a lovely fragrance.</p>
+                    <p class="price">$10.99</p>
+                    <a href="#" class="button">Buy Now</a>
+                  </div>
+                </div>
+                <div class="flower-card">
+                  <img src="images/download (2).jpg" alt="Flower 2">
+                  <div class="flower-info">
+                    <h3>Elegant Lily</h3>
+                    <p>White lily symbolizing purity and innocence.</p>
+                    <p class="price">$12.99</p>
+                    <a href="#" class="button">Buy Now</a>
+                  </div>
+                </div>
+                <div class="flower-card">
+                  <img src="images/download (3).jpg" alt="Flower 3">
+                  <div class="flower-info">
+                    <h3>Vibrant Tulip</h3>
+                    <p>Colorful tulip perfect for brightening up any space.</p>
+                    <p class="price">$8.99</p>
+                    <a href="#" class="button">Buy Now</a>
+                  </div>
+                </div>
+                
+                 
+              </div>
+        </section>
+
+        <section class="info">
+            <div class="container-m">
+    <h2 class="section-heading">Flower Knowledge</h2>
+    <div class="flower-card">
+      <img src="images/download (3).jpg" alt="Rose">
+      <div class="flower-info">
+        <h3>Rose</h3>
+        <p>Roses are popular flowers that come in a variety of colors. They are often associated with love and romance.</p>
+        <p>Rose petals are edible and can be used in culinary preparations or for decorative purposes.</p>
+      </div>
+    </div>
+    <div class="flower-card">
+      <img src="images/download (6).jpg" alt="Lily">
+      <div class="flower-info">
+        <h3>Lily</h3>
+        <p>Lilies are elegant flowers known for their large, showy blooms and pleasant fragrance.</p>
+        <p>They come in various colors, including white, pink, yellow, and orange.</p>
+      </div>
+    </div>
+    <div class="flower-card">
+      <img src="images/download (5).jpg" alt="Tulip">
+      <div class="flower-info">
+        <h3>Tulip</h3>
+        <p>Tulips are spring-blooming flowers that are known for their vibrant colors and distinctive cup-shaped blooms.</p>
+        <p>They are commonly associated with the Netherlands and are a symbol of spring.</p>
+      </div>
+    </div>
+  </div>
+
+        </section>
+
         <section class="section-5">
+
+            <div class="banner-container-3" style="background: url('images/Rectangle\ 9.png');" >
+                <h1 class="banner-text-5" style="text-align: center;" >Get The Latest Deals</h1>
+                <p class="dascription-5" >$30 coupon for first shopping</p>
+
+                <input class="Subscribe-box" type="text" name="sub" placeholder="Enter your email here...."  >
             
-            <h1 class="banner-text-5" style="text-align: center;" >Get The Latest Deals</h1>
-            <p class="dascription-5" >$30 coupon for first shopping</p>
-            <div class="banner-container-3">
-            <input class="Subscribe-box" type="text" name=" " placeholder="Enter your email here...."  >
-            <a class="btn-3" href="#">Subscribe</a>
-            <img class="banner-img-5" src="images/Rectangle 9.png" alt="">
+                <a class="btn-3" href="#">Subscribe</a>
+            
             </div>
         </section>
 
@@ -113,8 +188,14 @@
     </main>
     <footer class="f">
         <h1 class="f1"><span class="f11">Flower</span>Shop</h1>
-        <p class="f2">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
-        
+        <div class="icons">
+           
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-youtube"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+        </div>
+        <p class="f2">It  is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
         <h1 class="f3"> &#169 2020-2023, FlowerShop.com. All rights reserved. </h1>
 
     </footer>
